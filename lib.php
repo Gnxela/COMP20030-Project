@@ -22,4 +22,12 @@ function createHeader($page) {
 			</div>
 		</div>';
 }
+
+function createFooter() {
+	echo '<div class="footer">
+			<div class="container">
+				Test
+			</div>
+		</div>';
+}
 ?>

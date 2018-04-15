@@ -46,5 +46,6 @@ include "lib.php";
 				<div class="text"><h1>SOMETHING ELSE</h1>I really need to fill these...<br>Soon too...</div>
 			</div>
 		</div>
+		<?php createFooter(); ?>
 	</body>
 </html>

@@ -85,3 +85,15 @@ h1, h2, h3 {
 	width: 200px;
 	font-size: 20px;
 }
+
+.footer {
+	padding: 30px;
+	background-color: rgb(143, 143, 143);
+}
+
+.footer > .container {
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+	max-width: 1475px;
+}

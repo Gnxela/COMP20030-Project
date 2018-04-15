@@ -2,9 +2,17 @@
 include_once 'Database.php';
 include_once 'lib.php';
 
+if (!isset($_GET['id'])) {
+	echo "Invalid ID.";
+	exit();
+}
+$id = $_GET['id'];
+
+/*
 $database = new Database();
 $database -> connect();
-$statement = $database -> prepare("SELECT * from trail_tiles");
+$statement = $database -> prepare("SELECT * from trails WHERE id=?");
+$statement -> bind_param("i", id);
 $statement -> execute();
 $result = $statement -> get_result();
 if ($result === false) {
@@ -12,6 +20,7 @@ if ($result === false) {
 	exit();
 }
 $database -> close();
+*/
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -22,18 +31,7 @@ $database -> close();
 	</head>
 	<body>
 		<?php createHeader("trails") ?>
-		<div class="tile-wrapper">
-			<?php
-				while($row = $result -> fetch_row()) {
-					echo '<div class="tile" style="background-image: url(\'' . $row[4] . '\');"onclick="window.location=\'trail.php?id=' . $row[0] . '\';">
-							<div class="overlay"></div>
-							<div class="title">' . $row[1] . '</div>
-							<div class="slide-left">' . $row[3] . '</div>
-							<div class="slide-right"><br><br>' . $row[2] . '</div>
-						"</div>"';
-				}
-			?>
-		</div>
+
 		<?php createFooter(); ?>
 	</body>
 </html>

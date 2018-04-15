@@ -32,7 +32,7 @@
 }
 
 .content .left {
-	background-color: rgba(0, 0, 0, 0.0);
+	background-color: rgb(238, 238, 238);
 }
 
 .section {
@@ -40,8 +40,8 @@
 	height: 400px;
 	display: block;
 	overflow: hidden;
-	border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-	background-color: rgba(0, 0, 0, 0.2);
+	border-bottom: 1px solid rgb(166, 166, 166);
+	background-color: rgb(190, 190, 190);
 }
 
 .content .about-us {
@@ -122,7 +122,7 @@
 	top: 10px;/* Fix off centering */
 	display: inline-block;
 	padding: 3px 10px 5px 12px;
-	border: 1px solid rgba(0, 0, 0, 0.3);
+	border: 1px solid rgb(166, 166, 166);
 	overflow: hidden;
 	transition: 1s all;
 	min-width: 100px;
