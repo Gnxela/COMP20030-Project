@@ -1,0 +1,155 @@
+.frontpage {
+	height: 100%;
+	opacity: 0;
+	background-size: cover;
+	background-position: center;
+	color: white;
+}
+
+.frontpage .center {
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	width: 100%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	font-size: 64px;
+	font-weight: 100;
+}
+
+.frontpage .desc, .frontpage .credit  {
+	font-size: 16px;
+	font-weight: 100;
+	text-align: center;
+}
+
+.frontpage .credit {
+	position: absolute;
+	bottom: 0px;
+	left: 50%;
+	transform: translate(-50%);
+	opacity: 0.5;
+}
+
+.content .left {
+	background-color: rgba(0, 0, 0, 0.0);
+}
+
+.section {
+	position: relative;
+	height: 400px;
+	display: block;
+	overflow: hidden;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+.content .about-us {
+	height: auto;
+	padding-bottom: 15px;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+.content .about-us h1 {
+	padding-top: 15px;
+	font-size: 2.5em;
+}
+
+.content .about-us .love {
+	display: inline-block;
+	color: #d82424;
+	font-weight: 700;
+}
+
+.section .image {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 50%;
+	height: 100%;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.section .image img {
+	max-height: 90%;
+	max-width: 90%;
+	vertical-align: middle;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	transition: all 0.5s;
+}
+
+
+.section .image img:hover  {
+	max-width: 95%;
+	max-height: 95%;
+	transform-origin: center;
+}
+
+.section .text {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	max-width: 45%;
+	font-size: 22px;
+	transform: translate(10px, -50%);
+	text-align: left;
+}
+
+.left .text {
+	left: auto;
+	right: 50%;
+	width: 50%;
+	text-align: right;
+	transform: translate(-10px, -50%);
+}
+
+.left .image {
+	background-position: right center;
+	left: auto;
+	right: 0px;
+}
+
+.content .section .button {
+	color: black;
+	font-family: Raleway;
+	font-weight: 700;
+	position: relative;
+	top: 10px;/* Fix off centering */
+	display: inline-block;
+	padding: 3px 10px 5px 12px;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	overflow: hidden;
+	transition: 1s all;
+	min-width: 100px;
+	text-align: center;
+}
+
+.content .section .button::after {
+	background-color: #07a1f2;
+	display: inline-block;
+	position: absolute;
+	top: -50px;
+	left: -50px;
+	width: 100px;
+	height: 500px;
+	transform-origin: center;
+	transform: rotate(45deg);
+	content: ' ';
+	z-index: -1;
+	transition: .6s all;
+}
+
+.content .section .button:hover::after {
+	transform-origin: center;
+	width: 630px;
+	transform: rotate(45deg);
+}
+
+.content .section .button:hover {
+	color: white;
+}

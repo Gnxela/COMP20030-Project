@@ -1,0 +1,87 @@
+* {
+	margin: 0px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+html, body {
+	height: 100%;
+	background-color: #eeeeee;
+}
+
+h1, h2, h3 {
+	font-family: Raleway;
+	font-weight: 100;
+	letter-spacing: -1px;
+}
+
+#wrap {
+	height: 100%;
+}
+
+.headerContainer {
+	width: 100%;
+	height: 50px;
+}
+
+.header {
+	z-index: 100;
+	box-sizing: border-box;
+	width: 100%;
+	height: 50px;
+	padding: 5px;
+	background-color: rgb(143, 143, 143);
+	border-bottom: 1px solid rgb(133, 133, 133);
+}
+
+.header.stuck {
+	position: fixed;
+	top: 0px;
+}
+
+.header .button {
+	display: inline-block;
+	text-align: center;
+	padding-top: 6px;
+	width: 100px;
+	height: 36px;
+	text-decoration: none;
+	color: black;
+	border-bottom: 0px solid #5298bc;
+	transition: all 0.5s;
+	transition-property: height, border;
+}
+
+.header .seperator {
+	display: inline-block;
+	vertical-align: middle;
+	height: 30px;
+	width: 1px;
+	margin: -10px 5px 0px 5px;
+	background-color: rgba(0, 0, 0, 0.2);
+}
+
+.header .button.selected {
+	border-bottom: 3px solid #07a1f2;
+}
+
+.header .button:hover {
+	height: 34px;
+	border-bottom: 5px solid #5298bc;
+}
+
+.header .button:hover.selected {
+	border-bottom: 5px solid #07a1f2;
+}
+
+.header .right {
+	float: right;
+}
+
+.header input {
+	height: 36px;
+	border: none;
+	margin: 0px;
+	padding: 2px;
+	width: 200px;
+	font-size: 20px;
+}
