@@ -8,7 +8,7 @@ function headerScroll() {
 	var header = $(".header")
 	var scroll = $(window).scrollTop();
 
-	if (scroll > $(".headerContainer").offset().top) {
+	if (scroll >= $(".headerContainer").offset().top) {
 		header.addClass("stuck");
 	} else {
 		header.removeClass("stuck");
