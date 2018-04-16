@@ -2,6 +2,7 @@
 $(document).ready(function() {
 	headerScroll();
 	$(window).scroll(headerScroll);
+	footerUpdate();
 });
 
 function headerScroll() {
@@ -12,5 +13,13 @@ function headerScroll() {
 		header.addClass("stuck");
 	} else {
 		header.removeClass("stuck");
+	}
+}
+
+function footerUpdate() {
+	if ($(document).height() <= $(window).height()) {
+		$(".footer").addClass("stick");
+	} else {
+		$(".footer").removeClass("stick");
 	}
 }

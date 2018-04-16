@@ -16,29 +16,28 @@ include "lib.php";
 		<div class="content">
 			<?php createHeader("home") ?>
 			<div class="section left about-us">
-				<h1>About Us</h1>
-				Hike For Health was set up by passionate college students to try promote hiking around the world, for everyone.
-				<br>
-				Providing free and easily accessable information about hiking.
-				<br>
-				We stribe to make out about us as long as possible but also get as few people as possible to read it.
+				<h1>Hike For Health</h1>
+				<p>Hike For Health was set up by passionate college students to try promote hiking around the world, for everyone.</p>
+				<p>Providing free and easily accessable information about hiking.</p>
+				<p>We strive to make our about us as long as possible but also get as few people as possible to read it.</p>
+				<a href="about.php"><div class="button">About</div></a>
 			</div>
 			<div class="section">
-				<div class="image"><img src="res/whyHike-small.jpg" alt="Forrest hiking trail with young men running."/></div>
-				<div class="text">
-					<h1>Why Hike?</h1>
-					You can potentially lose weight, reduce heart disease, decrease blood pressure and slow the aging process. It also offers mental health benefits by reducing stress and anxiety.
-					<br>
-					<a href="#"><div class="button">More</div></a>
-				</div>
-			</div>
-			<div class="section left">
 				<div class="image"><img src="res/findTrails-small.jpg" alt="Young man walking down outdoor wooden stairs."/></div>
 				<div class="text">
 					<h1>Find Trails</h1>
 					Finding the right trail for you can be hard. Difficulty, length and location must all be taken into account.<br>Let our expertise guide you!
 					<br>
 					<a href="trails.php"><div class="button">Trails</div></a>
+				</div>
+			</div>
+			<div class="section left">
+				<div class="image"><img src="res/whyHike-small.jpg" alt="Forrest hiking trail with young men running."/></div>
+				<div class="text">
+					<h1>Why Hike?</h1>
+					You can potentially lose weight, reduce heart disease, decrease blood pressure and slow the aging process. It also offers mental health benefits by reducing stress and anxiety.
+					<br>
+					<a href="#"><div class="button">More</div></a>
 				</div>
 			</div>
 			<div class="section">

@@ -9,12 +9,12 @@
 .frontpage .center {
 	position: absolute;
 	top: 25%;
-	left: 50%;
 	width: 100%;
-	transform: translate(-50%, -50%);
 	text-align: center;
 	font-size: 64px;
 	font-weight: 100;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .frontpage .desc, .frontpage .credit  {
@@ -26,8 +26,8 @@
 .frontpage .credit {
 	position: absolute;
 	bottom: 0px;
-	left: 50%;
-	transform: translate(-50%);
+	margin-left: auto;
+	margin-right: auto;
 	opacity: 0.5;
 }
 
@@ -103,9 +103,7 @@
 .left .text {
 	left: auto;
 	right: 50%;
-	width: 50%;
 	text-align: right;
-	transform: translate(-10px, -50%);
 }
 
 .left .image {
@@ -129,7 +127,7 @@
 	text-align: center;
 }
 
-.content .section .button::after {
+.content .section .button::before {
 	background-color: #07a1f2;
 	display: inline-block;
 	position: absolute;
@@ -144,7 +142,7 @@
 	transition: .6s all;
 }
 
-.content .section .button:hover::after {
+.content .section .button:hover::before {
 	transform-origin: center;
 	width: 630px;
 	transform: rotate(45deg);

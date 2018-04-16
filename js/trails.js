@@ -74,6 +74,7 @@ function updateTiles() {
 		$(".tile-wrapper").find(".tile").each(function() {
 			$(this).removeClass("hidden");
 		});
+		footerUpdate();
 		return;
 	}
 
@@ -92,4 +93,5 @@ function updateTiles() {
 			}
 		}
 	});
+	footerUpdate();
 }

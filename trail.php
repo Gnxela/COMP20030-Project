@@ -25,13 +25,15 @@ $database -> close();
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<?php createHead("Trails") ?>
-		<link href="css/trails.css" type="text/css" rel="stylesheet">
-		<script src="js/trails.js"></script>
+		<?php createHead("") ?>
+		<link href="css/trail.css" type="text/css" rel="stylesheet">
 	</head>
 	<body>
-		<?php createHeader("trails") ?>
-
+		<div class="content">
+			<?php createHeader("home") ?>
+			<div class="image" style="background-image: url('res/dragonsBackThumb.jpg')"></div>
+			<h1>Dragon's Back</h1>
+		</div>
 		<?php createFooter(); ?>
 	</body>
 </html>
