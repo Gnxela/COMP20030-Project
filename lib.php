@@ -26,8 +26,7 @@ function createHeader($page) {
 function createFooter() {
 	echo '<div class="footer">
 			<div class="container">
-				<div class="copyright">&copy;</div> Alex Ng ' . date("Y") . '
-				<br>
+				<div class="copyright">&copy;</div><span>Alex Ng ' . date("Y") . '</span>
 				<a href="contact.php">Contact</a>
 			</div>
 		</div>';

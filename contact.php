@@ -10,7 +10,7 @@ include "lib.php";
 	</head>
 	<body>
 		<div class="content">
-			<?php createHeader("home") ?>
+			<?php createHeader("contact") ?>
 			<div class="wrapper">
 				<?php
 					if (isset($_POST['content'])) {

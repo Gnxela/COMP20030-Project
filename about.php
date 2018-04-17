@@ -6,7 +6,7 @@
 	</head>
 	<body>
 		<div class="content">
-			<?php createHeader("home") ?>
+			<?php createHeader("about") ?>
 		</div>
 		<div>
 			

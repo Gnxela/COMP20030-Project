@@ -16,8 +16,8 @@ $database -> close();
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<?php createHead("Trails") ?>
 		<link href="css/trails.css" type="text/css" rel="stylesheet">
+		<?php createHead("Trails") ?>
 		<script src="js/trails.js"></script>
 	</head>
 	<body>

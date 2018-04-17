@@ -20,7 +20,7 @@ include "lib.php";
 				<p>Hike For Health was set up by passionate college students to try promote hiking around the world, for everyone.</p>
 				<p>Providing free and easily accessable information about hiking.</p>
 				<p>We strive to make our about us as long as possible but also get as few people as possible to read it.</p>
-				<a href="about.php"><div class="button">About</div></a>
+				<a href="about.php"><div class="button" style="transform: translate(-50%); left: 50px;">About</div></a>
 			</div>
 			<div class="section">
 				<div class="image"><img src="res/findTrails-small.jpg" alt="Young man walking down outdoor wooden stairs."/></div>
