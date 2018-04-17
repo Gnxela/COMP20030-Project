@@ -26,17 +26,19 @@ h1, h2, h3 {
 
 .headerContainer {
 	width: 100%;
-	height: 50px;
+	height: 40px;
 }
 
 .header {
 	z-index: 100;
 	box-sizing: border-box;
 	width: 100%;
-	height: 50px;
+	height: 40px;
 	padding: 5px;
 	background-color: rgb(143, 143, 143);
 	border-bottom: 1px solid rgb(133, 133, 133);
+	line-height: 40px;
+	overflow: hidden;
 }
 
 .header.stuck {
@@ -45,25 +47,29 @@ h1, h2, h3 {
 }
 
 .header .button {
+	position: relative;
+	top: -3px;
 	display: inline-block;
 	text-align: center;
-	padding-top: 6px;
+	padding-bottom: 4px;
+	height: 30px;
 	width: 100px;
-	height: 36px;
 	text-decoration: none;
 	color: black;
-	border-bottom: 0px solid #5298bc;
+	border-bottom: 4px solid #5298bc;
 	transition: all 0.5s;
 	transition-property: height, border;
 }
 
 .header .seperator {
+	position: relative;
+	top: -9px;
 	display: inline-block;
 	vertical-align: middle;
 	height: 30px;
 	width: 1px;
-	margin: -10px 5px 0px 5px;
-	background-color: rgba(0, 0, 0, 0.2);
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=');
+	opacity: 0.4;
 }
 
 .header .button.selected {
@@ -71,12 +77,13 @@ h1, h2, h3 {
 }
 
 .header .button:hover {
-	height: 34px;
-	border-bottom: 5px solid #5298bc;
+	height: 27px;
+	border-bottom: 7px solid #07a1f2;
 }
 
 .header .button:hover.selected {
-	border-bottom: 5px solid #07a1f2;
+	height: 27px;
+	border-bottom: 7px solid #07a1f2;
 }
 
 .header .right {
@@ -86,7 +93,8 @@ h1, h2, h3 {
 .header input {
 	height: 28px;
 	border: none;
-	margin-top: 4px;
+	vertical-align: top;
+	margin-top: -1px;
 	padding: 2px;
 	width: 200px;
 	font-size: 20px;

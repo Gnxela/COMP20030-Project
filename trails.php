@@ -25,10 +25,10 @@ $database -> close();
 		<div class="controls-wrapper">
 			<div class="controls">
 				<div class="section">
-					<h3><u>Countries</u></h3>
+					<h2>Countries</h2>
 				</div>
 				<div class="section left">
-					<h3><u>Difficulty</u></h3>
+					<h2>Difficulty</h2>
 				</div>
 			</div>
 		</div>

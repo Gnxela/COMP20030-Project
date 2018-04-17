@@ -25,7 +25,7 @@ $database -> close();
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<?php createHead("trail") ?>
+		<?php createHead("Trail") ?>
 		<link href="css/trail.css" type="text/css" rel="stylesheet">
 	</head>
 	<body>
@@ -59,9 +59,17 @@ $database -> close();
 					<h1>Dragon's Back</h1>
 					<h2>Hong Kong</h2>
 					<p>With beautiful coastal scenery and easy-accessibility from the city, the Dragon�s Back is a popular escape that deservedly gets regular mentions in travel guidebooks. A short hop from the bustle of Hong Kong East, the trail provides stunning views of Shek O, Tai Long Wan, Stanley, Tai Tam, and the South China Sea.</p>
+					<p>With beautiful coastal scenery and easy-accessibility from the city, the Dragon�s Back is a popular escape that deservedly gets regular mentions in travel guidebooks. A short hop from the bustle of Hong Kong East, the trail provides stunning views of Shek O, Tai Long Wan, Stanley, Tai Tam, and the South China Sea.</p>
 				</div>
-				<div class="map"><iframe src="//www.google.com/maps/embed/v1/place?q=Dragon's back trail&key=AIzaSyCMYSYb_8W1Y95X56gW8myAM9b7yQ4ATP8"></iframe></div>
+				<div class="map"><iframe frameborder="0" width=300 height=300 src="//www.google.com/maps/embed/v1/place?q=Dragon's back trail&key=AIzaSyCMYSYb_8W1Y95X56gW8myAM9b7yQ4ATP8" allowfullscreen ></iframe></div>
 			</div>
+		</div>
+		<div class="gallery">
+			<h1>Gallery</h1>
+			<div class="image"><img src="res/dragonsBackThumb.jpg"/></div>
+			<div class="image"><img src="res/dragonsBackThumb.jpg"/></div>
+			<div class="image"><img src="res/dragonsBackThumb.jpg"/></div>
+			<div class="image"><img src="res/dragonsBackThumb.jpg"/></div>
 		</div>
 		<?php createFooter(); ?>
 	</body>

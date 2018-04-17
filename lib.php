@@ -3,6 +3,7 @@ function createHead($title) {
 	echo '<link href="https://fonts.googleapis.com/css?family=Raleway:300" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
 		<link href="css/global.css" type="text/css" rel="stylesheet">
+		<link rel="shortcut icon" href="about:blank">
 		<script src="js/jquery-3.3.1.min.js"></script>
 		<script src="js/global.js"></script>
 		<title>Hike For Health' . ($title == '' ? '' : ' / ' .$title) . '</title>';

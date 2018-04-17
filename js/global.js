@@ -6,6 +6,7 @@ $(document).ready(function() {
 });
 
 function headerScroll() {
+	console.log(1);
 	var header = $(".header")
 	var scroll = $(window).scrollTop();
 

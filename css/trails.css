@@ -112,7 +112,7 @@ body {
 }
 
 .controls-wrapper {
-	padding: 20px;
+	padding: 10px;
 	background-color: rgb(190, 190, 190);
 	border-bottom: 1px solid rgb(166, 166, 166);
 }
@@ -130,7 +130,7 @@ body {
 	display: inline-block;
 }
 
-.controls .section h3 {
+.controls .section h2 {
 	text-align: center;
 }
 
