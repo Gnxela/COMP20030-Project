@@ -5,6 +5,7 @@
 
 body {
 	background-color: #eeeeee;
+	overflow: scroll;/* This avoid repositioning when tiles are removed/added by the controls. */
 }
 
 .hidden {

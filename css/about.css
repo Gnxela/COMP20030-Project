@@ -1,0 +1,50 @@
+.content {
+	text-align: center;
+}
+
+.section {
+	padding: 20px;
+	border-bottom: 1px solid rgb(166, 166, 166);
+}
+
+.section:nth-of-type(2n) {
+	background-color: rgb(190, 190, 190);
+}
+
+.section h1 {
+	font-size: 3em;
+	margin-bottom: 10px;
+}
+
+.section h2 {
+	font-size: 2em;
+}
+
+.section > .content {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 900px;
+}
+
+.value {
+	display: inline-block;
+	width: 34%;
+	font-size: 2em;
+	font-family: Raleway;
+}
+
+.value > .description {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 14px;
+	margin-bottom: 20px;
+	opacity: 0.9;
+}
+
+.section > .seperator {
+	display: none;/* Hmm. Not sure if I want these */
+	width: 100px;
+	height: 1px;
+	margin: 20px auto;
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=');
+	opacity: 0.4;
+}

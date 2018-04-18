@@ -68,8 +68,9 @@ h1, h2, h3 {
 	vertical-align: middle;
 	height: 30px;
 	width: 1px;
+	width: 1.1px;/* Fixes the seperator sometimes being rendered as two pixels. Fallback to 1px if browser doesn't support decimal widths. */
 	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNk+A8AAQUBAScY42YAAAAASUVORK5CYII=');
-	opacity: 0.4;
+	opacity: 0.3;
 }
 
 .header .button.selected {
@@ -97,13 +98,15 @@ h1, h2, h3 {
 	margin-top: -1px;
 	padding: 2px;
 	width: 200px;
-	font-size: 20px;
+	font-size: 16px;
+	outline: 1px solid rgb(114, 114, 114);
 }
 
 .footer {
 	padding: 30px;
 	background-color: rgb(143, 143, 143);
 	text-align: center;
+	border-top: 1px solid rgb(100, 100, 100);
 }
 
 .footer.stick {

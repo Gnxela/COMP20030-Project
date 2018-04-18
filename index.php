@@ -15,12 +15,12 @@ include "lib.php";
 		</div>
 		<div class="content">
 			<?php createHeader("home") ?>
-			<div class="section left about-us">
+			<div class="section about-us">
 				<h1>Hike For Health</h1>
 				<p>Hike For Health was set up by passionate college students to try promote hiking around the world, for everyone.</p>
 				<p>Providing free and easily accessable information about hiking.</p>
 				<p>We strive to make our about us as long as possible but also get as few people as possible to read it.</p>
-				<a href="about.php"><div class="button" style="transform: translate(-50%); left: 50px;">About</div></a>
+				<a href="about.php"><div class="button" style="transform: translate(-50%); left: 50px;">About</div></a><!-- The inline styling on the button is needed for it to render properly. Didn't want to make an entire CSS selector for it. -->
 			</div>
 			<div class="section">
 				<div class="image"><img src="res/findTrails-small.jpg" alt="Young man walking down outdoor wooden stairs."/></div>
@@ -31,7 +31,7 @@ include "lib.php";
 					<a href="trails.php"><div class="button">Trails</div></a>
 				</div>
 			</div>
-			<div class="section left">
+			<div class="section">
 				<div class="image"><img src="res/whyHike-small.jpg" alt="Forrest hiking trail with young men running."/></div>
 				<div class="text">
 					<h1>Why Hike?</h1>

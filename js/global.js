@@ -6,21 +6,17 @@ $(document).ready(function() {
 });
 
 function headerScroll() {
-	console.log(1);
 	var header = $(".header")
 	var scroll = $(window).scrollTop();
-
+	header.removeClass("stuck");
 	if (scroll >= $(".headerContainer").offset().top) {
 		header.addClass("stuck");
-	} else {
-		header.removeClass("stuck");
 	}
 }
 
 function footerUpdate() {
+	$(".footer").removeClass("stick");
 	if ($(document).height() <= $(window).height()) {
 		$(".footer").addClass("stick");
-	} else {
-		$(".footer").removeClass("stick");
 	}
 }

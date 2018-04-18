@@ -27,12 +27,12 @@
 .frontpage .credit {
 	position: absolute;
 	bottom: 0px;
-	margin-left: auto;
-	margin-right: auto;
+	left: 50%;
+	transform: translate(-50%);
 	opacity: 0.5;
 }
 
-.content .left {
+.content .section:nth-of-type(2n) {
 	background-color: rgb(238, 238, 238);
 }
 
@@ -82,6 +82,7 @@
 	top: 50%;
 	transform: translate(-50%, -50%);
 	transition: all 0.5s;
+	outline: 1px solid rgb(166, 166, 166);
 }
 
 
@@ -101,13 +102,13 @@
 	text-align: left;
 }
 
-.left .text {
+.section:nth-of-type(2n) .text {
 	left: auto;
 	right: 50%;
 	text-align: right;
 }
 
-.left .image {
+.section:nth-of-type(2n) .image {
 	background-position: right center;
 	left: auto;
 	right: 0px;

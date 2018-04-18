@@ -21,6 +21,8 @@ include "lib.php";
 				<?php
 					} else {//Doing it the lazy way here.
 				?>
+				<p>Please fill out this form and we'll get back to you as soon as we can!</p>
+				<br>
 				<form method="POST" action="contact.php">
 					<!--<lable for="name">Name: </lable>-->
 					<input type="text" name="name" placeholder="Name" required />
