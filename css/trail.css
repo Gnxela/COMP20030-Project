@@ -25,23 +25,27 @@
 	font-size: 22px;
 }
 
-.data table, .data tr, .data td {
-	border: 1px solid black;
-	border-collapse: collapse;
-	padding: 3px;
+.pair:before {
+	content: '';
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	bottom: -2.5px;
+	height: 1px;
+	background-color: rgb(166, 166, 166);
+}
+.pair:last-of-type:before {
+	display: none;
+}
+.pair {
+	position: relative;
+	display: block;
+	margin: 5px 0px;
 }
 
-.data table {
-	margin-top: 10px;
-	width: 100%;
-}
-
-.data tr:nth-of-type(2n) {
-	background-color: rgb(209, 209, 209);
-}
-
-.data .small {
-	width: 110px;
+.pair .key, .pair .value {
+	width: 150px;
+	display: inline-block;
 }
 
 .mapContainer {

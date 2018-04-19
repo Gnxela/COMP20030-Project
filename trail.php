@@ -43,18 +43,16 @@ $database -> close();
 				<div class="section">
 					<div class="image" style="background-image: url('<?php echo $data['thumbnail'] ?>')"></div>
 					<div class="data">
-						<table>
 							<?php
 								$pairs = explode("|", $data['data']);
 								foreach ($pairs as $pair) {
 									$values = explode("`", $pair);
-									echo	'<tr>
-												<td class="small">' . $values[0] . '</td>
-												<td>' . $values[1] . '</td>
-											</tr>';
+									echo	'<div class="pair">
+												<div class="key">' . $values[0] . '</div>
+												<div class="value">' . $values[1] . '</div>
+											</div>';
 								}
 							 ?>
-						</table>
 					</div>
 				</div>
 				<div class="section">
