@@ -74,17 +74,12 @@ h1, h2, h3 {
 }
 
 .header .button.selected {
-	border-bottom: 3px solid #07a1f2;
+	border-bottom: 3px solid rgb(17, 159, 234);
 }
 
-.header .button:hover {
+.header .button:hover, .header .button:hover.selected {
 	height: 27px;
-	border-bottom: 7px solid #07a1f2;
-}
-
-.header .button:hover.selected {
-	height: 27px;
-	border-bottom: 7px solid #07a1f2;
+	border-bottom: 7px solid rgb(17, 159, 234);
 }
 
 .header .right {
@@ -103,6 +98,7 @@ h1, h2, h3 {
 }
 
 .footer {
+	font-size: 16px;
 	padding: 30px;
 	background-color: rgb(143, 143, 143);
 	text-align: center;

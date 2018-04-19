@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	let container = $("body > div.content > div:nth-child(2)");
+	let container = $("#values");
 	let values = [
 		["Health.", "Care for yourself."],
 		["Persistance.", "Keet at it. Keep trying. Again. And again."],

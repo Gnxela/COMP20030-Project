@@ -37,7 +37,7 @@ include "lib.php";
 					<h1>Why Hike?</h1>
 					You can potentially lose weight, reduce heart disease, decrease blood pressure and slow the aging process. It also offers mental health benefits by reducing stress and anxiety.
 					<br>
-					<a href="#"><div class="button">More</div></a>
+					<a href="why.php"><div class="button">More</div></a>
 				</div>
 			</div>
 			<div class="section">

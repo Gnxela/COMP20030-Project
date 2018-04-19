@@ -11,7 +11,7 @@ $(document).ready(function() {
 	let difficulties = {};
 
 	//Load maps
-	$(".tile-wrapper").children(".tile").each(function(index, val) {
+	$(".tile-wrapper").find("a > .tile").each(function(index, val) {
 		let self = $(val);
 		let country = escape(self.find(".slide-left").text());
 		let difficulty = self.find(".hidden").text();
@@ -71,14 +71,14 @@ function updateTiles() {
 	});
 
 	if (countCountries + countDifficulties === 0) {
-		$(".tile-wrapper").find(".tile").each(function() {
+		$(".tile-wrapper").find("a > .tile").each(function() {
 			$(this).removeClass("hidden");
 		});
 		footerUpdate();
 		return;
 	}
 
-	$(".tile-wrapper").find(".tile").each(function() {
+	$(".tile-wrapper").find("a > .tile").each(function() {
 		let self = $(this);
 		self.removeClass("hidden");
 		if (countCountries > 0) {

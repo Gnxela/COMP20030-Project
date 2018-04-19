@@ -1,8 +1,9 @@
 
 $(document).ready(function() {
 	headerScroll();
-	$(window).scroll(headerScroll);
 	footerUpdate();
+	$(window).on('scroll', headerScroll);
+	$("img").on('load', footerUpdate);//Images aren't always fully loaded the the DOM tree finishes loading. So we have to recalculate every time an image loads.
 });
 
 function headerScroll() {

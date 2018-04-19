@@ -16,7 +16,7 @@ function createHeader($page) {
 				<div class="seperator"></div>
 				<a href="trails.php"><div class="button' . ($page == "trails" ? " selected" : "") . '"><h2>Trails</h2></div></a>
 				<div class="seperator"></div>
-				<a href="learn.php"><div class="button' . ($page == "learn" ? " selected" : "") . '"><h2>Learn</h2></div></a>
+				<a href="why.php"><div class="button' . ($page == "why" ? " selected" : "") . '"><h2>Why</h2></div></a>
 				<div class="right">
 					<input type="text" placeholder="Search"/>
 				</div>
@@ -27,7 +27,8 @@ function createHeader($page) {
 function createFooter() {
 	echo '<div class="footer">
 			<div class="footerContainer">
-				<div class="copyright">&copy;</div><span>Alex Ng ' . date("Y") . '</span>
+				<div class="copyright">&copy;</div>&nbsp;Alex Ng ' . date("Y") . '
+				<br>
 				<a href="contact.php">Contact</a>
 			</div>
 		</div>';

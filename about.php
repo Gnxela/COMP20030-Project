@@ -17,6 +17,23 @@
 			</div>
 			<div class="section">
 				<div class="content">
+					<h1>Team</h1>
+					<div class="member">
+						<h2>Alex</h2>
+						<img src="res/alex.jpg"/>
+					</div>
+					<div class="member">
+						<h2>Cookie Monster</h2>
+						<img src="res/cookie.jpg"/>
+					</div>
+					<div class="member">
+						<h2>Patrick</h2>
+						<img src="res/patrick.jpg"/>
+					</div>
+				</div>
+			</div>
+			<div class="section">
+				<div id="values" class="content">
 					<h1>Values</h1>
 				</div>
 			</div>

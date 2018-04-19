@@ -87,8 +87,8 @@
 
 
 .section .image img:hover  {
-	max-width: 95%;
-	max-height: 95%;
+	max-width: 93%;
+	max-height: 93%;
 	transform-origin: center;
 }
 

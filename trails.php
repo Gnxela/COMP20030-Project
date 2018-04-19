@@ -35,13 +35,14 @@ $database -> close();
 		<div class="tile-wrapper">
 			<?php
 				while($row = $result -> fetch_assoc()) {
-					echo '<div class="tile" style="background-image: url(\'' . $row['thumbnail'] . '\');"onclick="window.location=\'trail.php?id=' . $row['id'] . '\';">
+					//echo '<div class="tile" style="background-image: url(\'' . $row['thumbnail'] . '\');" onclick="window.location=\'trail.php?id=' . $row['id'] . '\';">
+					echo '<a href="trail.php?id=' . $row['id'] . '"><div class="tile" style="background-image: url(\'' . $row['thumbnail'] . '\');">
 							<div class="overlay"></div>
 							<div class="title">' . $row['name'] . '</div>
 							<div class="slide-left">' . $row['country'] . '</div>
 							<div class="slide-right"><br><br>' . $row['description'] . '</div>
 							<div class="hidden">' . $row['difficulty'] . '</div>
-						</div>';
+						</div></a>';
 				}
 			?>
 		</div>
