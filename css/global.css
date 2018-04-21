@@ -92,6 +92,7 @@ h1, h2, h3 {
 	border: none;
 	vertical-align: top;
 	margin-top: -1px;
+	margin-right: -1px;
 	padding: 2px;
 	width: 200px;
 	font-size: 16px;

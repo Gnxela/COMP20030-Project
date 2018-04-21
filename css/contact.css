@@ -6,7 +6,8 @@
 .wrapper form {
 	margin-left: auto;
 	margin-right: auto;
-	max-width: 700px;
+	width: fit-content;
+	text-align: left;
 }
 
 .wrapper input, .wrapper textarea {
@@ -19,6 +20,8 @@
 
 .wrapper input[type=submit] {
 	color: rgb(52, 52, 52);
+	margin-top: 5px;
+	float: right;
 }
 
 .wrapper input[type=text] {
@@ -30,4 +33,18 @@
 	width: 400px;
 	height: 150px;
 	resize: none;
+}
+
+.wrapper lable {
+	margin-top: 5px;
+	opacity: 0.8;
+	font-weight: 700;
+	display: block;
+}
+
+.wrapper p {
+	opacity: 0.95;
+	margin-top: 5px;
+	display: inline-block;
+	width: fit-content;
 }

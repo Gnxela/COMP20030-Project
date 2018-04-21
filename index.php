@@ -1,3 +1,4 @@
+
 <?php
 include "lib.php";
 ?>
@@ -17,7 +18,7 @@ include "lib.php";
 			<?php createHeader("home") ?>
 			<div class="section about-us">
 				<h1>Hike For Health</h1>
-				<p>Hike For Health was set up by passionate college students to try promote hiking around the world, for everyone.</p>
+				<p>Hike For Health was set up by passionate college students to promote hiking around the world, for everyone.</p>
 				<p>Providing free and easily accessable information about hiking.</p>
 				<p>We strive to make our about us as long as possible but also get as few people as possible to read it.</p>
 				<a href="about.php"><div class="button" style="transform: translate(-50%); left: 50px;">About</div></a><!-- The inline styling on the button is needed for it to render properly. Didn't want to make an entire CSS selector for it. -->
@@ -26,7 +27,7 @@ include "lib.php";
 				<div class="image"><img src="res/findTrails-small.jpg" alt="Young man walking down outdoor wooden stairs."/></div>
 				<div class="text">
 					<h1>Find Trails</h1>
-					Finding the right trail for you can be hard. Difficulty, length and location must all be taken into account.<br>Let our expertise guide you!
+					Finding the right trail for you can be hard. Difficulty, length and location must all be taken into consideration.<br>Let our expertise guide you!
 					<br>
 					<a href="trails.php"><div class="button">Trails</div></a>
 				</div>
