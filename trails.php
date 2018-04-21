@@ -4,7 +4,15 @@ include_once 'lib.php';
 
 $database = new Database();
 $database -> connect();
-$statement = $database -> prepare("SELECT * from trail_tiles");
+if (isset($_GET['q']) && $_GET['q'] != "") {
+	$searched = true;
+	$query = $_GET['q'];
+	$query = "%" . $query . "%";
+	$statement = $database -> prepare("SELECT * from trail_tiles WHERE name LIKE ? OR country LIKE ? OR description LIKE ?");
+	$statement -> bind_param("sss", $query, $query, $query);
+} else {
+	$statement = $database -> prepare("SELECT * from trail_tiles");
+}
 $statement -> execute();
 $result = $statement -> get_result();
 if ($result === false) {
@@ -30,6 +38,17 @@ $database -> close();
 				<div class="section left">
 					<h2>Difficulty</h2>
 				</div>
+				<?php
+				if (isset($searched)) {
+				?>
+				<a href="trails.php">
+					<div class="clear">
+						Clear Search
+					</div>
+				</a>
+				<?php
+				}
+				?>
 			</div>
 		</div>
 		<div class="tile-wrapper">

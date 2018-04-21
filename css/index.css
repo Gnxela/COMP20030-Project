@@ -32,8 +32,8 @@
 	opacity: 0.5;
 }
 
-.content .section:nth-of-type(2n) {
-	background-color: rgb(238, 238, 238);
+.content .section:nth-of-type(2n + 1) {
+	background-color: rgb(190, 190, 190);
 }
 
 .section {
@@ -42,25 +42,7 @@
 	display: block;
 	overflow: hidden;
 	border-bottom: 1px solid rgb(166, 166, 166);
-	background-color: rgb(190, 190, 190);
-}
-
-.content .about-us {
-	height: auto;
-	padding-bottom: 15px;
-	text-align: center;
-	font-size: 1.2em;
-}
-
-.content .about-us h1 {
-	padding-top: 15px;
-	font-size: 2.5em;
-}
-
-.content .about-us .love {
-	display: inline-block;
-	color: #d82424;
-	font-weight: 700;
+	background-color: rgb(238, 238, 238);
 }
 
 .section .image {
@@ -102,13 +84,13 @@
 	text-align: left;
 }
 
-.section:nth-of-type(2n) .text {
+.section:nth-of-type(2n + 1) .text {
 	left: auto;
 	right: 50%;
 	text-align: right;
 }
 
-.section:nth-of-type(2n) .image {
+.section:nth-of-type(2n + 1) .image {
 	background-position: right center;
 	left: auto;
 	right: 0px;

@@ -125,10 +125,25 @@ body {
 	width: 400px;
 }
 
+.controls a {
+	text-decoration: none;
+}
+
+.controls .clear {
+	border: 1px solid rgb(136, 136, 136);
+	color: black;
+	width: fit-content;
+	font-size: 20px;
+	padding: 2px;
+	background-color: rgb(180, 180, 180);
+	margin: 10px auto 0px auto;
+}
+
 .controls .section {
 	vertical-align: top;
 	width: 198px;
 	display: inline-block;
+	text-align: left;
 }
 
 .controls .section h2 {

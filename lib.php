@@ -18,7 +18,9 @@ function createHeader($page) {
 				<div class="seperator"></div>
 				<a href="why.php"><div class="button' . ($page == "why" ? " selected" : "") . '"><h2>Why</h2></div></a>
 				<div class="right">
-					<input type="text" placeholder="Search"/>
+					<form method="GET" action="trails.php">
+						<input onkeydown="if (event.keyCode == 13) {this.form.submit();return false;}" type="text" name="q" placeholder="Search"/>
+					</form>
 				</div>
 			</div>
 		</div>';
