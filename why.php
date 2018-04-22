@@ -11,9 +11,18 @@
 			<div class="section">
 				<div class="content">
 					<h1>Why Hike?</h1>
-					<p>Hiking has many benifits. Hiking for one hour can burn up to 500 calories and is easier on your ankles and knees than running. Dispite what you might think hiking is a full body work out, from your quads, glutes and hamstrings to your core and endurange.</p>
-					<p>A study published in the International Journal of Sports Medicine  found that long distance hiking trips may improve the antioxidative capacity, which helps fight off disease, in the blood of oncological patients.</p>
-					<p>A study published in the International Journal of Sports Medicine  found that long distance hiking trips may improve the antioxidative capacity, which helps fight off disease, in the blood of oncological patients.</p>
+					<div>
+						<h2>Health</h2>
+						A study published in the International Journal of Sports Medicine  found that long distance hiking trips may improve the antioxidative capacity, which helps fight off disease, in the blood of oncological patients.
+					</div>
+					<div>
+						<h2>Fitness</h2>
+						Hiking for one hour can burn up to 500 calories and is easier on your ankles and knees than running. Despite what you might think hiking is a full body work out, from your quads, glutes and hamstrings to your core and endurance.
+					</div>
+					<div>
+						<h2>Wellbeing</h2>
+						Immersing yourself in nature improves your mood, boosts your inspiration and strengthens your concentration.
+					</div>
 				</div>
 			</div>
 			<div class="section" style="height: 400px; background-image: url('res/why.jpg'); background-size: cover; background-position: center;">
@@ -37,7 +46,7 @@
 					</div>
 					<div>
 						<h2>Plan Ahead</h2>
-						Before starting any hike, make sure you know where to go and what to being. If the hike will take more than an hour think about bringing food and extra water.
+						Before starting any hike, make sure you are familiar with the trail. If the hike will take more than an hour think about bringing food and extra water.
 					</div>
 					<div>
 						<h2>Bring A Buddy</h2>

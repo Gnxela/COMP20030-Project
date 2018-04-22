@@ -34,9 +34,11 @@
 	height: 1px;
 	background-color: rgb(166, 166, 166);
 }
+
 .pair:last-of-type:before {
 	display: none;
 }
+
 .pair {
 	position: relative;
 	display: block;
@@ -44,7 +46,8 @@
 }
 
 .pair .key, .pair .value {
-	width: 150px;
+	width: 49%;
+	vertical-align: middle;
 	display: inline-block;
 }
 

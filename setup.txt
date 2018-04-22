@@ -1,0 +1,6 @@
+To import the database file (database.sql), run the following commands
+
+echo "CREATE DATABASE IF NOT EXISTS COMP20030" | mysql -u [username] -p[password]
+mysql -u [username] -p[password] COMP20030 < database.sql
+
+NOTE: There is NO space after '-p'

@@ -1,6 +1,4 @@
-<?php include "lib.php"; ?>
-<!DOCTYPE html>
-<html lang="en">
+<?php include "lib.php"; ?> <!DOCTYPE html> <html lang="en">
 	<head>
 		<?php createHead("About") ?>
 		<link href="css/about.css" type="text/css" rel="stylesheet">
@@ -12,12 +10,17 @@
 			<div class="section">
 				<div class="content">
 					<h1>About Us</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas elementum accumsan orci, et facilisis urna hendrerit nec. Pellentesque arcu nulla, sagittis et odio sit amet, faucibus porttitor metus. Duis egestas sapien a placerat dignissim. Curabitur imperdiet lorem sit amet ornare blandit. Vivamus nisl est, egestas ac quam quis, vulputate scelerisque dui. Phasellus interdum feugiat elit, non gravida nulla dapibus id. Quisque vel neque non massa dignissim facilisis vitae ac velit. Donec mollis, ipsum in hendrerit bibendum, arcu augue maximus ex, vel mattis tellus erat quis nisi. Quisque mattis lobortis arcu nec feugiat. Fusce rhoncus metus vel sem malesuada rhoncus. Phasellus eget bibendum mi.</p>
+					<p>
+						Hike For Health was set up in 2018 to promote healthy living.
+						Hiking has always been a big part of our lives and we wanted to share it with the world!
+						Whether you're hiking for fun, hiking for fitness or hiking for mental wellbeing, we're here to support you!
+						We all start our trail in different ways and at different places, but we're all traveling in the same direction and along the same path; so let's walk together.
+					</p>
 				</div>
 			</div>
 			<div class="section">
 				<div class="content">
-					<h1>Team</h1>
+					<h1>Our Team</h1>
 					<div class="member">
 						<h2>Alex</h2>
 						<img src="res/alex.jpg"/>
@@ -34,7 +37,7 @@
 			</div>
 			<div class="section">
 				<div id="values" class="content">
-					<h1>Values</h1>
+					<h1>Our Values</h1>
 				</div>
 			</div>
 		</div>

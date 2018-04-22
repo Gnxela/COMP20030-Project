@@ -22,13 +22,12 @@
 	margin-right: 5px;
 }
 
-.section .why p, .section .why h2 {
+.section p, .section h2 {
 	display: inline-block;
 }
 
-.why > div {
-	font-size: 22px;
-	margin-bottom: 5px;
+.content {
+	font-size: 20px;
 }
 
 .section > .content {
