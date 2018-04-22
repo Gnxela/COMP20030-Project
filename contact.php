@@ -22,13 +22,13 @@ include "lib.php";
 					} else {//Doing it the lazy way here.
 				?>
 				<form method="POST" action="contact.php">
-					<lable for="name">Name</lable>
+					<span>Name</span>
 					<input type="text" name="name" placeholder="Name" required />
 					<br>
-					<lable for="email">Email</lable>
+					<span>Email</span>
 					<input type="text" name="email" placeholder="Email Address" required />
 					<br>
-					<lable for="email">What can we help you with? </lable>
+					<span>What can we help you with? </span>
 					<textarea name="content" placeholder="Message" required ></textarea>
 					<br>
 					<p>We will respond by email as promptly as possible!</p>

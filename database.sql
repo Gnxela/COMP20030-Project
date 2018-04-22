@@ -69,7 +69,7 @@ CREATE TABLE `trails` (
 
 LOCK TABLES `trails` WRITE;
 /*!40000 ALTER TABLE `trails` DISABLE KEYS */;
-INSERT INTO `trails` VALUES (1,'Dragon\'s Back','The Dragon\'s Back hike is located on Hong Kong Island, which means that it\'s easy to get to, and is well connected.<br>It is a great introduction to hiking. It\'s also a great way to see the other side of Hong Kong - the side with no skyscrapers, trees, sandy beaches, and the sea.<br>With beautiful coastal scenery and easy-accessibility from the city, the Dragon\'s Back is a popular escape that deservedly gets regular mentions in travel guidebooks.','Hong Kong','res/dragonsBackThumb.jpg','https://www.google.com/maps/embed/v1/directions?key=AIzaSyCMYSYb_8W1Y95X56gW8myAM9b7yQ4ATP8&mode=walking&origin=Dragon\'s Back - Trail Start, Hong Kong Trail Sec. 8, Shek O, Hong Kong&destination=Shek O Village Rd, Shek O, Hong Kong&waypoints=Dragon\'s back trail, Dragon\'s Back Shek O, Hong Kong|22.255822, 114.240949','res/dragonsBack1.jpg|res/dragonsBack2.jpg|res/dragonsBack3.jpg|res/dragonsBack4.jpg|res/dragonsBack5.jpg','Difficulty`Intermediate|Max Altitude`268m|Length`9.6km|Average hiking time`4 hours');
+INSERT INTO `trails` VALUES (1,'Dragon\'s Back','The Dragon\'s Back hike is located on Hong Kong Island, which means that it\'s easy to get to, and is well connected.<br>It is a great introduction to hiking. It\'s also a great way to see the other side of Hong Kong - the side with no skyscrapers, trees, sandy beaches, and the sea.<br>With beautiful coastal scenery and easy-accessibility from the city, the Dragon\'s Back is a popular escape that deservedly gets regular mentions in travel guidebooks.','Hong Kong','res/dragonsBackThumb.jpg','https://www.google.com/maps/embed/v1/directions?key=AIzaSyCMYSYb_8W1Y95X56gW8myAM9b7yQ4ATP8&mode=walking&origin=Dragon\'s%20Back%20-%20Trail%20Start,%20Hong%20Kong%20Trail%20Sec.%208,%20Shek%20O,%20Hong%20Kong&destination=Shek%20O%20Village%20Rd,%20Shek%20O,%20Hong%20Kong&waypoints=Dragon\'s%20back%20trail,%20Dragon\'s%20Back%20Shek%20O,%20Hong%20Kong|22.255822,%20114.240949\n','res/dragonsBack1.jpg|res/dragonsBack2.jpg|res/dragonsBack3.jpg|res/dragonsBack4.jpg|res/dragonsBack5.jpg','Difficulty`Intermediate|Max Altitude`268m|Length`9.6km|Average hiking time`4 hours');
 /*!40000 ALTER TABLE `trails` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -82,4 +82,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2018-04-22 21:40:02
+-- Dump completed on 2018-04-22 22:04:32

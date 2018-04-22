@@ -23,15 +23,15 @@
 					<h1>Our Team</h1>
 					<div class="member">
 						<h2>Alex</h2>
-						<img src="res/alex.jpg"/>
+						<img src="res/alex.jpg" alt="Photo of Alex Ng."/>
 					</div>
 					<div class="member">
 						<h2>Cookie Monster</h2>
-						<img src="res/cookie.jpg"/>
+						<img src="res/cookie.jpg" alt="Photo of the Cookie Monster"/>
 					</div>
 					<div class="member">
 						<h2>Patrick</h2>
-						<img src="res/patrick.jpg"/>
+						<img src="res/patrick.jpg" alt="Photo of Patrick Star"/>
 					</div>
 				</div>
 			</div>

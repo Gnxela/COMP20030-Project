@@ -28,7 +28,7 @@ $(document).ready(function() {
 	for (let country in countries) {
 		let name = unescape(country);
 		let input = $(`<input id="c` + country + `" type="checkbox" />`);
-		let control = $(`<div><lable for="c"` + country + `>` + name + `: </lable></div>`);
+		let control = $(`<div><span>` + name + `: </span></div>`);
 		input.change(updateTiles);
 		control.append(input);
 		controlCountries.append(control);
@@ -41,7 +41,7 @@ $(document).ready(function() {
 		}
 		//Doing it this way so I can easily add the handler now, rather than having to select the input element after inserting it.
 		let input = $(`<input id="d` + difficulty + `" type="checkbox" />`);
-		let control = $(`<div><lable for="d"` + difficulty + `>` + difficulty + `: </lable></div>`);
+		let control = $(`<div><span>` + difficulty + `: </span></div>`);
 		input.change(updateTiles);
 		control.append(input);
 		controlDifficulty.append(control);

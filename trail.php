@@ -71,7 +71,7 @@ $database -> close();
 			<?php
 				$images = explode("|", $data['images']);
 				foreach ($images as $image) {
-					echo '<div class="image"><img src="' . $image . '"/></div>';
+					echo '<div class="image"><img src="' . $image . '" alt=""/></div>';
 				}
 			 ?>
 		</div>
