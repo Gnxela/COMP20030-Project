@@ -2,7 +2,7 @@ $(document).ready(function() {
 	let container = $("#values");
 	let values = [
 		["Health", "Care for yourself."],
-		["Persistance", "Keet at it. Keep trying. Again. And again."],
+		["Persistance", "Keep at it. Keep trying. Again. And again."],
 		["Passion", "Do what you love."],
 		["Adventure", "Take risks and embrace where they take you."],
 		["Motivation", "Shoot for the stars. Land on the clouds."],

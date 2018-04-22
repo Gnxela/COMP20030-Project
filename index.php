@@ -25,7 +25,7 @@
 				<div class="image"><img src="res/landscape-small.jpg" alt="Wide expansive vally and a blue sky."/></div>
 				<div class="text">
 					<h1>Why Hike?</h1>
-					Hiking is a mind-body workout. It has many benefits both mental and physical and is easily accessable to the average person.
+					Hiking is a mind-body workout. It has many benefits both mental and physical. Best of all, there's a hike to suit everyone. Where there's a will, there's a pathway!
 					<br>
 					<a href="why.php"><div class="button">More</div></a>
 				</div>
